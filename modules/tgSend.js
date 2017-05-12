@@ -60,7 +60,7 @@ module.exports.stopped = function (bot, message) {
     
     setTimeout(function () {
         
-        bot.sendMessage(message.chatid, "Не хотите ли открыть список файлоа снова? - /list");
+        bot.sendMessage(message.chatid, "Не хотите ли открыть список файлов снова? - /list");
         
     }, 500);
     
