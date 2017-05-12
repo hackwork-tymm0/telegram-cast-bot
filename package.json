@@ -1,0 +1,30 @@
+{
+      "name": "telegram-cast-bot",
+      "version": "1.0.0",
+      "description": "A Telegram Bot for Chromecasting",
+      "main": "bot.js",
+      "dependencies": {
+            "chromecast-api": "^0.2.5",
+            "node-telegram-bot-api": "^0.27.1",
+            "request": "^2.81.0",
+            "sb-scandir": "^1.0.0"
+      },
+      "devDependencies": {},
+      "scripts": {
+            "bot": "clear && node bot.js"
+      },
+      "keywords": [
+            "bot",
+            "telegram",
+            "chromecast"
+      ],
+      "repository": {
+          "type": "git",
+          "url": "https://github.com/hackwork-tymm0/telegram-cast-bot"
+      },
+      "author": "tymm0",
+      "license": "MIT",
+      "bin": {
+            "telegram-cast-bot": "./runBot.sh"
+      }
+}
