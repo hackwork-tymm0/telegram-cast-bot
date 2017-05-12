@@ -20,7 +20,7 @@ function list (list, type, bot, message) {
                 
             }
             
-            genMessage += "\nНапомню, чтоб проиграть трек - води /playmusic [ЧИСЛО]";
+            genMessage += "\nНапомню, чтоб проиграть трек - вводи /playmusic [ЧИСЛО]";
             
             bot.sendMessage(message.chatid, genMessage);
             
@@ -44,7 +44,7 @@ function list (list, type, bot, message) {
                 
             }
             
-            genMessage += "\nНапомню, чтоб проиграть видео - води /playvideo [ЧИСЛО]";
+            genMessage += "\nНапомню, чтоб проиграть видео - вводи /playvideo [ЧИСЛО]";
             
             bot.sendMessage(message.chatid, genMessage);
             
