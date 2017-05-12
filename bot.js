@@ -56,8 +56,6 @@ browser.on("deviceOn", function (device) {
         message.chatid = msg.chat.id;
         message.text = msg.text;
         message.username = msg.from.username;
-        
-        console.log(message.text);
 
         switch (message.text) {
 
@@ -109,8 +107,6 @@ browser.on("deviceOn", function (device) {
 
                     if (fileNumber != undefined) {
                         
-                        console.log(fileList.music.length);
-                        
                         if (fileNumber > fileList.music.length) {
                          
                             tgSend.notFound(bot, message);
@@ -137,7 +133,7 @@ browser.on("deviceOn", function (device) {
 
                     if (fileNumber != undefined) {
 
-                        if (fileNumber.toNumber > fileList.video.length) {
+                        if (fileNumber > fileList.video.length) {
                         
                             tgSend.notFound(bot, message);
                             
